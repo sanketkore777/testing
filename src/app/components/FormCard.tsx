@@ -93,7 +93,7 @@ const FormCard = () => {
                 </div>
                 <CardFooter className="bg-gray-100 p-4">
                   <CustomSnippet
-                    url={`${process.env.NEXT_PUBLIC_API_URL}/form/${form.id}`}
+                    url={`${window.location.origin}/form/${form.id}`}
                   />
                 </CardFooter>
               </Card>
