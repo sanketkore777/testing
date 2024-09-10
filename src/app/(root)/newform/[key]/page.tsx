@@ -63,7 +63,7 @@ const Page = async ({ params }: Params) => {
     return (
       <div className="flex flex-col w-full p-6">
         <h2 className="text-3xl font-semibold text-red-500">
-          Failed to load templates'
+          Failed to load templates
           {JSON.stringify(error)} -- ERROR
         </h2>
       </div>
