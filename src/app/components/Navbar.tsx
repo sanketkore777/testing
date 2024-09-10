@@ -98,7 +98,7 @@ export default function NavigationBar() {
       </NavbarContent>
 
       {/* Mobile Menu */}
-      <NavbarMenu isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)}>
+      <NavbarMenu>
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={index}>
             <Link
